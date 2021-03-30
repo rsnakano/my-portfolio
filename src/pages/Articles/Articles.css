@@ -1,0 +1,116 @@
+.artdiv {
+  background-color: #ffef00;
+  height: 100%;
+  min-height: 80vh;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  margin-top: 56px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.articles-heading {
+  font-family: "Alata";
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.article-col {
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.article-col > article {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+.article-col > article > h2 {
+  font-family: "Alata";
+  font-size: 24px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  padding-bottom: 0px;
+  padding-left: 25%;
+  padding-right: 16px;
+  text-align: left;
+}
+
+.article-col > article > p {
+  font-family: "Alata";
+  font-size: 16px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-bottom: 0px;
+  padding-right: 25%;
+  padding-left: 16px;
+  text-align: right;
+}
+
+footer {
+  flex-direction: row;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+footer > div {
+  display: flex;
+  flex: 1 1 0px;
+  position: relative;
+  align-items: center;
+}
+
+footer > div > div {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 16px;
+}
+
+footer > div > div > a > img {
+  height: 32px;
+  width: 32px;
+  margin: 4px;
+}
+
+footer > div > p {
+  font-family: "Alata";
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffef00;
+  padding-right: 0px;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 640px) {
+  footer {
+    display: flex;
+  }
+
+  footer > div > p {
+    margin-right: 0;
+    text-align: right;
+    padding-right: 24px;
+  }
+}
