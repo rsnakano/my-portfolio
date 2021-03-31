@@ -1,5 +1,5 @@
 import React from 'react';
-import Toolbar from '../../components/Toolbar/Toolbar';
+import { NavLink } from 'react-router-dom';
 import './Articles.css';
 import fb from '../../resources/fb-icon.png'
 import twitter from '../../resources/twitter-logo.png'
@@ -13,12 +13,12 @@ function Articles() {
         <h1 className="articles-heading">ARTICLES</h1>
         <div className="article-col">
           <article>
-            <h2>First Hackathon Experience!</h2>
-            <p>Mar 30, 2021</p>
+            <h2><NavLink to="/articles/first-hackathon">First Hackathon Experience!</NavLink></h2>
+            <p>Apr 1, 2021</p>
           </article>
           <article>
-            <h2>Building A Portfolio</h2>
-            <p>Apr 1, 2021</p>
+            <h2><NavLink to="/articles/building-portfolio">Building A Portfolio</NavLink></h2>
+            <p>Mar 30, 2021</p>
           </article>
         </div>
       </div>
@@ -42,7 +42,6 @@ function Articles() {
         </div>
       </footer>
     </html>
-
   );
 }
 

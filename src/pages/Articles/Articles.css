@@ -41,7 +41,6 @@
 .article-col > article > h2 {
   font-family: "Alata";
   font-size: 24px;
-  color: black;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: auto;
@@ -49,6 +48,17 @@
   padding-left: 25%;
   padding-right: 16px;
   text-align: left;
+}
+
+.article-col > article > h2 > a {
+  color: black;
+  text-decoration: none;
+}
+
+.article-col a:hover,
+.article-col a:active {
+  color: white;
+
 }
 
 .article-col > article > p {
