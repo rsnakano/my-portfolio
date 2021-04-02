@@ -1,10 +1,7 @@
 import React from 'react';
-import Toolbar from '../../../../components/Toolbar/Toolbar';
 import { NavLink } from 'react-router-dom';
 import './Piece1.css';
-import fb from '../../../../resources/fb-icon.png'
-import twitter from '../../../../resources/twitter-logo.png'
-import github from '../../../../resources/github-icon.png'
+
 
 function Piece1() {
   return(
@@ -23,7 +20,7 @@ function Piece1() {
           </i></p>
           <p>
             In the midst of the pandemic that suspended classes for almost half a year by then,
-            my organization, ACM (Association for Computing Machinery), wanted to take this time
+            my organization, ACM (Association for Computing Machinery), wanted to take that time
             to build the organization's official website. To do this, they wanted to get volunteers
             to be trained by a senior member on web development (front end), so I volunteered.
             Our whole training was basically a hands-on experience, since after a brief session explaining
@@ -36,7 +33,7 @@ function Piece1() {
             With the ol' pen & paper and virtually no drawing skills, I started off planning the design.
             I looked up different portfolios online to get some inspiration and decided in the end
             to opt for a more minimalistic look (totally not because it would've taken the least
-            amount of effort) with yellow/black/white as the main colors. I didn't get to save the paper
+            amount of effort) with yellow/black as the main colors. I didn't get to save the paper
             that I drew the initial design on, but the final design more or less reflected the original
             one pretty well. The next step was to figure out how to actually implement the design using
             HTML/CSS.
@@ -100,25 +97,6 @@ function Piece1() {
             </p>
         </div>
       </div>
-      <footer>
-        <div></div>
-        <div>
-          <div>
-            <a href="https://www.facebook.com/Ryo.JSN/" target="_blank">
-              <img src={fb} alt="fb-ico"></img>
-            </a>
-            <a href="https://twitter.com/whyisryo" target="_blank">
-              <img src={twitter} alt="twitter-ico"></img>
-            </a>
-            <a href="https://github.com/rsnakano" target="_blank">
-              <img src={github} alt="github-ico"></img>
-            </a>
-          </div>
-        </div>
-        <div>
-          <p>rsnakano@up.edu.ph</p>
-        </div>
-      </footer>
     </html>
   );
 }
