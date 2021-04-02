@@ -17,7 +17,7 @@ function Articles() {
             <p>Apr 1, 2021</p>
           </article>
           <article>
-            <h2><NavLink to="/articles/building-portfolio">Building A Portfolio</NavLink></h2>
+            <h2><NavLink to="/articles/building-portfolio">Building a Portfolio</NavLink></h2>
             <p>Mar 30, 2021</p>
           </article>
         </div>
