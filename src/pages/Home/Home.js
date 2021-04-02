@@ -80,7 +80,7 @@ function Home() {
                 </li>
                 <li>
                   <div>
-                    <span>C++</span>
+                    <span>C/C++</span>
                     <img src={cL} alt="c"></img>
                   </div>
                 </li>
@@ -92,7 +92,7 @@ function Home() {
                 </li>
                 <li>
                   <div>
-                    <span>JAVASCRIPT</span>
+                    <span>JS (REACTJS)</span>
                     <img src={jsL} alt="js"></img>
                   </div>
                 </li>
@@ -101,7 +101,7 @@ function Home() {
             <div>
               <h1 className="aboutme">About Me</h1>
               <p className="about-para">I'm a 19-year old student in <br />the
-              Philippines and currently taking <br />up
+              Philippines currently taking <br />up
               Computer Science at the University<br />of
               the Philippines-Diliman.<br />
               Nice to meet you!
