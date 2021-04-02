@@ -4,7 +4,7 @@
 ##*The second part was built on March 2021*
 
       In the midst of the pandemic that suspended classes for almost half a year by then,
-my organization, ACM (Association for Computing Machinery), wanted to take this time
+my organization, ACM (Association for Computing Machinery), wanted to take that time
 to build the organization's official website. To do this, they wanted to get volunteers
 to be trained by a senior member on web development (front end), so I volunteered.
 Our whole training was basically a hands-on experience, since after a brief session explaining
@@ -16,7 +16,7 @@ front-end web development, but I welcomed the challenge.
     With the ol' pen & paper and virtually no drawing skills, I started off planning the design.
 I looked up different portfolios online to get some inspiration and decided in the end
 to opt for a more minimalistic look (totally not because it would've taken the least
-amount of effort) with yellow/black/white as the main colors. I didn't get to save the paper
+amount of effort) with yellow/blacke as the main colors. I didn't get to save the paper
 that I drew the initial design on, but the final design more or less reflected the original
 one pretty well. The next step was to figure out how to actually implement the design using
 HTML/CSS.
