@@ -11,11 +11,11 @@ function Articles() {
         <div className="article-col">
           <article>
             <h2><NavLink to="/articles/first-hackathon">First Hackathon Experience!</NavLink></h2>
-            <p>Apr 1, 2021</p>
+            <p>Apr 3, 2021</p>
           </article>
           <article>
             <h2><NavLink to="/articles/building-portfolio">Building a Portfolio</NavLink></h2>
-            <p>Mar 30, 2021</p>
+            <p>Mar 31, 2021</p>
           </article>
         </div>
       </div>
