@@ -10,41 +10,151 @@
   padding-bottom: 0px;
 }
 
-.article-post > div {
+.article-post > .post-info {
   display: flex;
   flex-direction: row;
   padding-top: 56px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.article-post > div > span {
+.article-post > .post-info > span {
   font-family: "Alata";
   font-size: 16px;
   color: black;
   text-align: left;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: auto;
-  padding-left: 20%;
+  padding-left: 12%;
+
 }
 
-.article-post > div > hr {
+.article-post > .post-info > hr {
   background-color: black;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  width: 24%;
+  width: 50%;
   height: 2px;
   border-width: 0px;
 }
 
-.article-post > div > p {
+.article-post > .post-info > p {
   font-family: "Alata";
   font-size: 16px;
   color: black;
   text-align: right;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-right: 12%;
+}
+
+
+.article-post > .post-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-post > .post-body > h2 {
+  text-align: left;
+  max-width: 64%;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  padding-left: 16%;
+}
+
+.article-post > .post-body > p {
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 50px;
+  max-width: 64%;
+  line-height: 190%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   margin-left: auto;
-  padding-right: 20%;
+  margin-right: auto;
+}
+
+.article-post > .post-body a {
+  color: gray;
+  text-decoration: none;
+}
+
+.article-post > .post-body a:hover,
+.article-post > .post-body a:active {
+  color: white;
+
+}
+
+.article-post > .post-body > p > img {
+  display: block;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-post > .post-body > p > iframe {
+  display: block;
+  width: 640px;
+  max-width: 100%;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-post > .about-author {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.article-post > .about-author > hr {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 48%;
+  height: 2px;
+  border-width: 0px;
+}
+
+.article-post > .about-author > h3 {
+  text-align: left;
+  max-width: 64%;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  padding-left: 20%;
+}
+
+.article-post > .about-author a {
+  color: gray;
+  text-decoration: none;
+}
+
+.article-post > .about-author a:hover,
+.article-post > .about-author a:active {
+  color: white;
+
+}
+
+.article-post > .about-author > p {
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 50px;
+  max-width: 56%;
+  line-height: 190%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
